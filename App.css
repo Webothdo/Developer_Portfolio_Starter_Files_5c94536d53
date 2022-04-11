@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #0a0a0b;
+    color: #ffffff;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #005BBB;
+}
+
+.logo {
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+h1 {
+    margin: 50px 15px 30px 15px;
+}
+
+p {
+    margin: 0 15px 0 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e5e5e5;
+}
+
+h2 {
+    margin: 30px 15px;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-bottom: 15px;
+}
+    
+.img {
+    width: 75%;
+    max-width: 400px;
+    margin: 15px 0;
+}
+
+.img-container:hover {
+    border: #ffffff solid 3px;
+}
+
+.projects p {
+    margin: 0;
+    width: 300px;
+    text-align: center;
+}
+
+
+footer {
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: #23232b;
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+.twitter {
+    width: 25px;
+    cursor: pointer;
+}
+
+.github {
+    width: 25px;
+    cursor: pointer;
+}
